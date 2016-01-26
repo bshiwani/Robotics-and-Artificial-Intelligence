@@ -308,7 +308,7 @@ while true
              mov=mov+1;
          else
              % Finally, play the movie once
-             movie(M,1)
+             %movie(M,1)
              % Save movie in avi format
              movie2avi(M,'robot.avi')
          end
@@ -317,7 +317,7 @@ end
 % After Stop is pressed check and save the video even if the number of
 % frames are less than 'nframes' 
    if mov<=nframes
-       movie(M,1)
+       %movie(M,1)
        % Save movie in avi format
        movie2avi(M,'robot.avi') 
    end
